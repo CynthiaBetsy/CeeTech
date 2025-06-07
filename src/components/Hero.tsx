@@ -66,26 +66,33 @@ const Hero = () => {
         CYNTHIA EMEKA
          </h1>
           <div className="text-2xl md:text-4xl text-gray-100 mb-8 h-16 flex items-center justify-center">
-            <span className="mr-2">I'm a</span>
-            <span className="text-blue-400 font-semibold min-w-[300px] text-left">
+            <span className="mr-2">I'm a </span>
+            <span className="text-blue-300 font-semibold min-w-[300px] text-left">
               {text}
               <span className="animate-pulse">|</span>
             </span>
           </div>
 
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Crafting beautiful, responsive web experiences with modern technologies. 
-            I bring ideas to life through clean code and intuitive design.
+         Crafting responsive, user-friendly digital experiences with modern technologies.
+I bring ideas to life through clean code, intuitive design, and scalable software solutions. 
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               size="lg" 
               onClick={scrollToProjects}
-              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 animate-glow"
+              className="bg-gradient-to-r from-blue-400 to-blue-400 hover:text-white hover:to-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 animate-glow"
             >
               View My Work
             </Button>
+            <a
+  href="/public/Cynthia.Emeka. (resume).pdf"
+  download
+  className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 animate-glow"
+>
+  My Resume
+</a>
             <Button 
               variant="outline" 
               size="lg"
