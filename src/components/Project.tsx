@@ -26,7 +26,7 @@ const Projects = () => {
       description: 'A personal portfolio showcasing a frontend development skills.Features projects, experience, and a passion for building the web.',
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop',
       tech: ['React', 'Typescript', 'Tailwind CSS', 'Node.js'],
-      liveUrl: 'https://example-weather.com',
+      liveUrl: 'https://cee-tech-three.vercel.app/',
       githubUrl: 'https://github.com/CynthiaBetsy/CeeTech'
     }
   ];
