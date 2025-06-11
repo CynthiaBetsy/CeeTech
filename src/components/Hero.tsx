@@ -65,9 +65,9 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
         CYNTHIA EMEKA
          </h1>
-          <div className="text-2xl md:text-4xl text-gray-100 mb-8 h-16 flex items-center justify-center">
-            <span className="mr-2">I'm a </span>
-            <span className="text-blue-300 font-semibold min-w-[300px] text-left">
+          <div className="text-2xl md:text-4xm text-gray-100 mb-8 h-16 flex items-center justify-center">
+            <span className="mr-1">I'm a </span>
+            <span className="text-blue-300 font-semibold min-w-[250px] text-left">
               {text}
               <span className="animate-pulse">|</span>
             </span>
