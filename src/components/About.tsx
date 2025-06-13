@@ -39,7 +39,7 @@ const About = () => {
                 creating digital experiences that combine beautiful design with robust functionality.
               </p>
               <p className="text-gray-300">
-                My journey began with a curiosity about how websites and work, and it has evolved into 
+                My journey began with a curiosity about how websites work, and it has evolved into 
                 a deep appreciation for crafting user-centered applications that solve real problems.
               </p>
               <p className="text-gray-300">
