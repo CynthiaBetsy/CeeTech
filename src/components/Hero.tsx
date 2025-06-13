@@ -86,8 +86,8 @@ I bring ideas to life through clean code, intuitive design, and scalable softwar
             >
               View My Work
             </Button>
-            <a
-  href="/public/Cynthia.Emeka. (resume).pdf"
+           <a
+  href="/Cynthia.Emeka.%20(resume).pdf"
   download
   className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 animate-glow"
 >
