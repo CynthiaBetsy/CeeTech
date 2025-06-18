@@ -18,7 +18,7 @@ const Projects = () => {
       description: 'Techfemme Academy is a platform that empowers women in tech through mentorship, training, and career support',
       image: TechFemmePic,  
       tech: ['React', 'Firebase', 'Material-UI', 'Context API'],
-      liveUrl: 'https://techfemme.vercel.app',
+      liveUrl: 'https://https://techfemme-black.vercel.app/',
       githubUrl: 'https://github.com/CynthiaBetsy/TechFemme'
     },
     {
