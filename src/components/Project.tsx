@@ -83,7 +83,7 @@ const Projects = () => {
                   <Button 
                     size="sm" 
                     onClick={() => window.open(project.liveUrl, '_blank')}
-                    className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300"
+                    className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300 cursor-pointer"
                   >
                     <ExternalLink size={16} className="mr-2" />
                     Live Demo
@@ -92,7 +92,7 @@ const Projects = () => {
                     size="sm" 
                     variant="outline"
                     onClick={() => window.open(project.githubUrl, '_blank')}
-                    className="border-gray-600 text-gray-300 hover:bg-gray-700 hover:text-white"
+                    className="border-gray-600 text-gray-300 hover:bg-gray-700 hover:text-white cursor-pointer"
                   >
                     <Github size={16} className="mr-2" />
                     Code
